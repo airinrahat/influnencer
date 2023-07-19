@@ -13,6 +13,7 @@
 header{
     background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+padding: 0px 20px;
 }
 .navbar{
     display: flex;
@@ -71,13 +72,16 @@ border: none;
 /* banner style start  */
 .banner{
     display: flex;
-   background-image: url('../images/Group\ 14.png');
-   background-repeat: no-repeat;
-   background-size: contain;
+   padding: 0px 20px;
   
 }
 .banner-title{
     width: 50%;
+    background-image: url('../images/Group\ 14.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+   
 }
 .banner-title h3{
     color: #0B0223;
@@ -85,6 +89,7 @@ border: none;
     font-weight: 600;
     padding-top: 50px;
     text-align: center;
+    
 }
 .banner-title h1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -100,20 +105,27 @@ text-align: center;
 align-items: center     ;
 font-weight: 500;
 font-size: 1rem;
-padding-left: 180px;
-margin-top: 10px;
+margin: 0px auto;
 margin-bottom: 10px;
+ max-width: 21vw;
+}
+.button{
+    display: flex;
+    gap: 5px;
+    padding: 0px 0px 0px 170px;
+    
 }
 .primary-btn{
     border-radius: 48px;
     background-color: #FF42A5;
     border: none;
     padding: 10px 20px;
-  margin-left: 180px;
+  text-align: center;
+  color: white;
 }
 .go-btn{
     border-radius: 48px;
-  
+  color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 48px;
@@ -126,8 +138,45 @@ background: #4EC5F7;
 }
 .banner-img img{
     width: 100%;
+    margin-top: 20px;
 }
 .fa-regular, .fa-download{
  color: #FF42A5;
 }
 /* banner style end */
+
+/* gammer section start  */
+.gamer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 0px 20px;
+}
+
+.gamer-img img{
+    width: 80%;
+    
+}
+.gamer-title{
+    width: 50%;
+    margin: 0 auto;
+}
+.gamer-title h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700;
+font-size: 2.8rem;
+}
+.gamer-title p{
+    color: #534C64;
+    color: #534C64;
+    font-size: 1rem;
+    margin: 8px 0px;
+}
+
+
+
+/* gammer section ends */
