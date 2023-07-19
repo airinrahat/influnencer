@@ -1,104 +1,45 @@
-/* mobile phone responsive */
+/* mobile responsive */
 @media screen and (max-width: 576px){
-    .navbar,  .item ul, .gamer, .online-games {
+    .navbar,.banner, .logo, .gamer , .online-games {
         flex-direction: column;
+
     }
     .logo{
         margin-bottom: 15px;
     }
-    .item ul li{
-        padding: 5px 0px;
-    } 
     .banner{
-       
-        flex-direction: column-reverse;
-        padding: 10px -18px;
-        width: 80%;
-        margin: auto;
-
+        text-align: center;
+        padding: 0px 20px;
     }
-    .banner-title{
-        width: 100%;
-        margin: 0 auto
+    .banner-title h3{
+        font-size: 1.5rem;
+
     }
     .banner-title h1{
         font-size: 2rem;
-    margin-bottom: 5px;  
     }
-    .banner-title h3{
-        font-size: 1rem;
-        padding: 5px 0px; 
-        margin-top: 10px;
-    }
-    .banner-title p{
-    font-size: .3rem;
-    }
-    .banner-img {
+    .banner-title, .banner-img{
         width: 100%;
     }
-    span.button{ 
-        display: flex;
-        padding: 0px 0px 0px 57px;
-        margin-bottom: 10px;
-    
+    .gamer-title{
+        width: 100%;
+        
     }
-    .primary-btn, .go-btn{
-       
-        border-radius: 14px;
-        padding: 5px 20px;
-     
+    .gamer-title h1{
+        font-size: 1.2rem;
     }
-    .gamer-img img{
-        margin-left: 25px;
+    .gamer-title p{
+        font-size: .8rem;
+    }
+    .online-game h1{
+        font-size: 1rem;
     }
     .online-games{
-       padding-left: 100px;
-    }
-   .online-game h1{
-    font-size: 1.5rem;
-   }
-}
-
-
-
-
-
-/* medium device */
-@media screen and (min-width:576px) and (max-width: 960px){
-    .banner, .online-games{
-        flex-direction: column-reverse;
-        padding: 10px -18px;
         width: 100%;
-        margin: auto;
-        align-items: center;
-       
+
     }
-    .gamer{
-        flex-direction: column;
-    
-    padding: 0px 0px 0px 55px;
-    }
-    .gamer-img img{
-        width: 90%;
-    }
-    .banner-title{
-        background-image: cover;
-    }
-    .banner-title h1{
-        font-size: 2rem;
-    }
-    .banner-title h3{
-        font-size: 1.2rem;
-        padding: 5px 0px; 
-        margin-top: 5px;
-    }
-    .banner-title p{
-        font-size: .5rem;
-        }
-        span.button{ 
-            display: flex;
-            padding: 0px 0px 0px 87px;
-            margin-bottom: 10px;
-        
-        }
+    /* .play-img-one{
+        width: 100%;
+    } */
+   
 }
