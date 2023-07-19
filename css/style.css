@@ -151,6 +151,9 @@ background: #4EC5F7;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    /* -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
     padding: 0px 20px;
 }
 
@@ -180,3 +183,114 @@ font-size: 2.8rem;
 
 
 /* gammer section ends */
+/* online games section start  */
+.online-game{
+    padding: 0px 20px;
+    margin-bottom: 50px;
+    /* display: flex;
+    justify-content: center;
+    gap: 10px; */
+}
+.online-game h1{
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 36px;
+}
+ .value{
+    color: #534C64;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-games{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ 
+}
+
+.online-games img{
+    width: 237px;
+    height: 301px;
+}
+
+.img-online{
+    position: relative;
+  width: 50%;
+}
+.img-online img{
+    display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 20px;
+    height: 90%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+border: 2px solid #F948B2;
+
+}
+.img-online:hover .overlay{
+    opacity: 1;
+}
+.content h2{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    color: #F948B2;
+    top: 56%;
+    left: 35%;
+    text-align: center
+}
+.play-icon{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+
+}
+
+
+.img-online p{
+    color: #534C64;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+/* online games section ends */
+
+/* play games start */
+
+.play{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-img .img-small{
+    position: relative;
+    position: relative;
+    bottom: 100px;
+    left: 454px;
+}
+
+/* play games end */
