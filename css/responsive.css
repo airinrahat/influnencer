@@ -1,0 +1,12 @@
+/* mobile phone responsive */
+@media screen and (max-width: 576px){
+    .navbar,  .item ul, .banner{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 15px;
+    }
+    .item ul li{
+        padding: 5px 0px;
+    }
+}
