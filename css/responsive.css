@@ -1,6 +1,6 @@
 /* mobile phone responsive */
 @media screen and (max-width: 576px){
-    .navbar,  .item ul, .gamer, .online-games{
+    .navbar,  .item ul, .gamer, .online-games {
         flex-direction: column;
     }
     .logo{
