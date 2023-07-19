@@ -77,13 +77,14 @@ border: none;
 .banner{
     display: flex;
     gap: 50px;
+    padding-top: 20px;
 }
 .banner-title{
     width: 50%;
     background-image: url('../images/Group\ 14.png');
    background-repeat: no-repeat;
    background-size: cover;
-   padding-top: 160px;
+   padding-top: 130px;
    padding-left: 120px;
    
 }
@@ -140,9 +141,13 @@ background: #4EC5F7;
 .banner-img{
     width: 50%;
     margin-right: 120px;
+    display: flex;
+    justify-content: end;
 }
 .banner-img img{
-    width: 100%;
+    width: 90%;
+    height: 90%;
+
    
 }
 .fa-regular, .fa-download{
@@ -156,10 +161,7 @@ background: #4EC5F7;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    /* -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
-    padding: 40px 120px;
+    padding: 25px 120px;
 
 }
 /* portfolio_part start */
@@ -494,7 +496,91 @@ background-clip: text;
   
   /* partner end */
 
+  
 
+
+
+
+
+
+
+
+
+  /* career part start */
+.career {
+    background-color: rgba(255, 66, 165, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 120px;
+  }
+  
+  .career .career-title {
+    
+    width: 50%;
+
+  }
+  .career .career-img {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+  }
+  .career .career-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .career-title h2 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .career-title p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 6px 0px;
+  }
+  
+  .career-ul {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  .career-ul ul {
+    list-style: none;
+  }
+  
+  .career-ul ul li {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  
+  .career .button button {
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #fff;
+    display: inline-flex;
+    padding: 18px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #fff;
+    color: rgba(255, 66, 165, 1);
+  }
+  
+  /* career part end */
+  
 
 .icon-container button{
     border-radius: 15px;
