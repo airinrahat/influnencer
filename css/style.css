@@ -156,16 +156,59 @@ background: #4EC5F7;
     /* -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
-    padding: 0px 20px;
-}
+    padding: 40px 120px;
 
-.gamer-img img{
-    width: 80%;
+}
+/* portfolio_part start */
+
+.port_img {
+    position: relative;
+  }
+  .port_img:hover .port_img_overlay {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .port_con {
+    overflow: hidden;
+  }
+  
+  .port_img_overlay {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .port_img_overlay a {
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* portfolio_part end */
+
+.gamer-img{
+    width: 70%;
     
+}
+.gamer-img img{
+    width: 100%;
 }
 .gamer-title{
     width: 50%;
-    margin: 0 auto;
+    text-align: end;
 }
 .gamer-title h1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -180,6 +223,7 @@ font-size: 2.8rem;
     color: #534C64;
     font-size: 1rem;
     margin: 8px 0px;
+    line-height: 30px;
 }
 
 
@@ -187,8 +231,8 @@ font-size: 2.8rem;
 /* gammer section ends */
 /* online games section start  */
 .online-game{
-    padding: 0px 20px;
-    margin-bottom: 50px;
+    padding:80px 120px;
+  
     /* display: flex;
     justify-content: center;
     gap: 10px; */
@@ -198,14 +242,13 @@ font-size: 2.8rem;
     font-weight: 700;
     font-size: 2.8rem;
     text-align: center;
-    margin-top: 36px;
+
 }
  .value{
     color: #534C64;
     font-size: 1rem;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    
 }
 .funny{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -224,59 +267,59 @@ background-clip: text;
     width: 237px;
     height: 301px;
 }
-
-.img-online{
-    position: relative;
-  width: 50%;
-}
-.img-online img{
+.img-online-con {
+    width: 50%;
+    overflow: hidden;
+  }
+  .img-online-con img {
     display: block;
-  width: 100%;
-  height: auto;
-}
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0px;
-    right: 20px;
-    height: 90%;
     width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    border-radius: 16px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-border: 2px solid #F948B2;
-
-}
-.img-online:hover .overlay{
-    opacity: 1;
-}
-.content h2{
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    color: #F948B2;
-    top: 56%;
-    left: 35%;
-    text-align: center
-}
-.play-icon{
-    color: white;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    font-size: 1rem;
-
-}
-
-
-.img-online p{
-    color: #534C64;
+    height: auto;
+  }
+  
+  .img-online-con p {
+    color: #534c64;
     font-size: 1rem;
     margin-top: 15px;
-}
+  }
+  
+  .online-img {
+    position: relative;
+  }
+  .online-img:hover .img-overlay {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 15px;
+    border: 5px solid #f948b2;
+  }
+  .img-overlay .overlay-title i {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .img-overlay .overlay-title h2 {
+    color: white;
+    font-size: 20px;
+    color: #f948b2;
+  }
+
+
 /* online games section ends */
 
 /* play games start */
@@ -325,3 +368,25 @@ background-clip: text;
     margin-bottom: 200px;
 }
 /* play games end */
+
+
+.icon-container button{
+    border-radius: 15px;
+}
+.icon-container button img{
+    width: 40px;
+}
+.icon-container button b{
+    text-align: center;
+}
+/* fotter section start  */
+.navbar{
+        margin-top: 100px ;
+}
+.footer-item{
+    margin-top: 40px;
+}
+
+
+
+/* foooter section ends */
