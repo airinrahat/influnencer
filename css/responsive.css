@@ -1,11 +1,18 @@
 /* mobile responsive */
 @media screen and (max-width: 576px){
-    .navbar,.banner, .logo, .gamer , .online-games {
+    .navbar,.banner,  .gamer , .online-games, ul {
         flex-direction: column;
 
     }
+    .item button{
+    padding: 5px 1px;
+    }
     .logo{
         margin-bottom: 15px;
+    }
+    .primary-btn{
+        padding: 0px 27px;
+        margin-left: 62px;
     }
     .banner{
         text-align: center;
@@ -13,13 +20,13 @@
     }
     .banner-title h3{
         font-size: 1.5rem;
-
     }
     .banner-title h1{
         font-size: 2rem;
     }
     .banner-title, .banner-img{
         width: 100%;
+        padding: 10px;
     }
     .gamer-title{
         width: 100%;
@@ -38,8 +45,71 @@
         width: 100%;
 
     }
-    /* .play-img-one{
+    .gamer-img{
         width: 100%;
-    } */
+    }
+    .gamer-title p {
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+    .gamer-btn{
+        margin-left: 10px;
+    padding: 10px 10px;
+    }
+    .gamer-title b{
+        font-size: 1rem;
+    }
+    .img-online-con{
+       
+        width: 100%;
+    }
    
+}
+
+
+
+
+
+
+
+
+
+/* medium device */
+@media screen and (min-width:576px) and (max-width: 960px){
+
+    .navbar,.banner,  .gamer , .online-games, ul {
+        flex-direction: column;
+
+    }
+    .banner-title, .banner-img{
+        width: 100%;
+        padding: 10px;
+
+    }
+    .banner{
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .banner-title h1{
+        font-size: 2.8rem;
+    }
+    .banner-title h3{
+        font-size: 1.5rem;
+    }
+    .banner-title p{  
+    font-weight: 400;
+    font-size: .6rem;
+    }
+    .primary-btn{
+        padding: 0px 27px;
+        margin-left: 244px;
+    }
+    .gamer-btn{
+        margin-left: 10px;
+    padding: 10px 10px;
+    }
+    .img-online-con{
+       
+        width: 100%;
+    }
 }
