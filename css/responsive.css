@@ -1,115 +1,267 @@
 /* mobile responsive */
-@media screen and (max-width: 576px){
-    .navbar,.banner,  .gamer , .online-games, ul {
-        flex-direction: column;
-
+@media screen and (max-width: 576px) {
+    .navbar,
+    .gamer,
+    .online-games,
+    ul {
+      flex-direction: column;
     }
-    .item button{
-    padding: 5px 1px;
+  
+    .navbar {
+      padding: 20px 0px;
     }
-    .logo{
-        margin-bottom: 15px;
+  
+    .item button {
+      padding: 8px 20px;
+      border-radius: 5px;
     }
-    .primary-btn{
-        padding: 0px 27px;
-        margin-left: 62px;
+    .logo {
+      margin-bottom: 15px;
     }
-    .banner{
-        text-align: center;
-        padding: 0px 20px;
+  
+    .banner {
+      flex-direction: column-reverse;
+      background-color: #fff;
+      padding: 0px 30px;
     }
-    .banner-title h3{
-        font-size: 1.5rem;
+  
+    .banner-img {
+      width: 100%;
+      margin-right: 0px;
     }
-    .banner-title h1{
-        font-size: 2rem;
+    .banner-img img {
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
     }
-    .banner-title, .banner-img{
-        width: 100%;
-        padding: 10px;
+  
+    .banner-title {
+      width: 100%;
+      padding-top: 0px;
+      padding-left: 0px;
+      padding: 20px;
     }
-    .gamer-title{
-        width: 100%;
-        
+  
+    .banner-title h3 {
+      font-size: 1.5rem;
     }
-    .gamer-title h1{
-        font-size: 1.2rem;
+  
+    .banner-title h1 {
+      font-size: 3rem;
     }
-    .gamer-title p{
-        font-size: .8rem;
+  
+    .banner-title p {
+      font-size: 0.7rem;
     }
-    .online-game h1{
-        font-size: 1rem;
+  
+    .primary-btn {
+      padding: 10px 22px;
     }
-    .online-games{
-        width: 100%;
-
+    .go-btn {
+      padding: 10px 22px;
     }
-    .gamer-img{
-        width: 100%;
+  
+    /* header banner end */
+  
+    .gamer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      padding: 20px 30px;
+    }
+  
+    .gamer-img {
+      width: 100%;
+    }
+  
+    .gamer-title {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .gamer-title h1 {
+      font-size: 2rem;
     }
     .gamer-title p {
-        font-size: 0.8rem;
-        line-height: 18px;
+      font-size: 0.8rem;
+      line-height: 20px;
     }
-    .gamer-btn{
-        margin-left: 10px;
-    padding: 10px 10px;
+  
+    .gamer-btn {
+      margin-bottom: 15px;
     }
-    .gamer-title b{
-        font-size: 1rem;
+  
+    .gamer-title b {
+      font-size: 1rem;
     }
-    .img-online-con{
-       
-        width: 100%;
+  
+    /* gamer part end */
+  
+    .online-game {
+      padding: 30px;
     }
-   
-}
-
-
-
-
-
-
-
-
-
-/* medium device */
-@media screen and (min-width:576px) and (max-width: 960px){
-
-    .navbar,.banner,  .gamer , .online-games, ul {
-        flex-direction: column;
-
+  
+    .online-game h1 {
+      font-size: 2rem;
     }
-    .banner-title, .banner-img{
-        width: 100%;
-        padding: 10px;
-
+    .online-game .value {
+      font-size: 1rem;
     }
-    .banner{
-        text-align: center;
-        padding: 0px 20px;
+  
+    .img-online-con {
+      width: 100%;
     }
-    .banner-title h1{
-        font-size: 2.8rem;
+    .online-game p {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      text-align: center;
     }
-    .banner-title h3{
-        font-size: 1.5rem;
+  
+    /* online-games part end */
+  
+    .play-one {
+      padding: 10px 30px;
+      flex-direction: column;
+      gap: 30px;
     }
-    .banner-title p{  
-    font-weight: 400;
-    font-size: .6rem;
+    .play-title-one {
+      text-align: center;
     }
-    .primary-btn{
-        padding: 0px 27px;
-        margin-left: 244px;
+  
+    .play-title-one h1 {
+      font-size: 1.8rem;
     }
-    .gamer-btn{
-        margin-left: 10px;
-    padding: 10px 10px;
+  
+    .play-title-one p {
+      font-size: 0.6rem;
+      margin-bottom: 0px;
+      margin: 10px 0px;
     }
-    .img-online-con{
-       
-        width: 100%;
+  
+    .play-img-one {
+      width: 100%;
+      text-align: end;
     }
-}
+  
+    .play-img-one .img-big-one {
+      width: 80%;
+    }
+  
+    .play-img-one .img-small-one {
+      position: absolute;
+      bottom: -50px;
+      left: -10px;
+      width: 50%;
+    }
+  
+    /*  */
+  
+    .play-tow {
+      padding: 100px 30px;
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
+  
+    .play-title-tow {
+      text-align: center;
+    }
+  
+    .play-title-tow h1 {
+      font-size: 1.8rem;
+    }
+  
+    .play-title-tow p {
+      font-size: 0.6rem;
+      margin-bottom: 0px;
+      margin: 10px 0px;
+    }
+  
+    .play-img-tow {
+      width: 100%;
+    }
+  
+    .play-img-tow .img-big-tow {
+      width: 80%;
+    }
+  
+    .play-img-tow .img-small-tow {
+      position: absolute;
+      bottom: -50px;
+      right: -10px;
+      width: 50%;
+    }
+  
+    /* play part end */
+  
+    .career {
+      padding: 30px;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .career .career-title {
+      width: 100%;
+      margin-left: 10px;
+    }
+  
+    .career-title h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+    .career-title p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .career-ul {
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px 0px;
+    }
+  
+    .career-ul ul li {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+  
+    .career .button button {
+      font-size: 17px;
+      padding: 14px 28px;
+    }
+  
+    .career .career-img {
+      width: 100%;
+    }
+    .career .career-img img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    /* careers part end */
+  
+    .partner {
+      padding: 30px;
+    }
+  
+    .partner-one {
+      margin-top: 10px;
+    }
+  
+    .partner-hide {
+      display: block;
+    }
+  
+    .partner-show {
+      display: none;
+    }
+  
+    /* partner part end */
+  
+    footer {
+      padding: 30px;
+    }
+  }
+  
