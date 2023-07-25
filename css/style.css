@@ -505,7 +505,7 @@ header {
   justify-content: space-between;
   gap: 5px;
   /* margin-bottom: 100px; */
-  display: none;
+ 
 }
 .partner-tow {
   background: linear-gradient(
@@ -518,7 +518,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   gap: 5px;
-  display: none;
+ 
 }
 
 .partner-one {
